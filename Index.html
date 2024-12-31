@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>مواقيت الصلاة</title>
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <main style="padding: 30px;">
+
+            <!-- City-name And Date -->
+            <div id="city-name-and-date">
+                <h1 id="city-name">دمياط</h1>
+                <p id="date" style="font-size: 25px; font-weight: 300;">الخميس ١٩ يوليو ٢٠٢١</p>
+
+            </div>
+            <hr style=" border-color:#ddd ; margin: 15px 0;">
+            <!-- City-name And Date -->
+
+            <div class="center" style="justify-content: space-around; padding: 40px 0;">
+                <div class="card-payer">
+                    <div class="header">
+                        <h1>الفجر</h1>
+                    </div>
+                    <div class="body">
+                        <h1 id="fajr-time">4:50</h1>
+                    </div>
+                </div>
+                <div class="card-payer">
+                    <div class="header">
+                        <h1>الشروق</h1>
+                    </div>
+                    <div class="body">
+                        <h1 id="shrok-time">4:50</h1>
+                    </div>
+                </div>
+                <div class="card-payer">
+                    <div class="header">
+                        <h1>الظهر</h1>
+                    </div>
+                    <div class="body">
+                        <h1 id="dhuhr-time">4:50</h1>
+                    </div>
+                </div>
+                <div class="card-payer">
+                    <div class="header">
+                        <h1>العصر</h1>
+                    </div>
+                    <div class="body">
+                        <h1 id="asr-time">4:50</h1>
+                    </div>
+                </div>
+                <div class="card-payer">
+                    <div class="header">
+                        <h1>المغرب</h1>
+                    </div>
+                    <div class="body">
+                        <h1 id="maghrib-time">4:50</h1>
+                    </div>
+                </div>
+                <div class="card-payer">
+                    <div class="header">
+                        <h1>العشاء</h1>
+                    </div>
+                    <div class="body">
+                        <h1 id="isha-time">4:50</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <select name="" id="select-city" class="center">
+
+
+                </select>
+            </div>
+            <div class="center" ">
+                <div class=" box">
+                <h3>قال عليه الصلاة والسلام: “ووقت العصر ما لم تصفر الشمس”. قد عرفنا بأن ابتداء وقت العصر يكون بانتهاء وقت الظهر (أي عند مصير ظل كل شيء مثله). وأما نهاية وقت العصر فله وقتان: ) وقت اختيار: وهو من أول وقت العصر إلى اصفرار الشمس لقول الرسول صلى الله عليه وسلم: “وقت العصر ما لم تصفر الشمس”.</h3>
+
+            </div>
+
+            </div>
+
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script type="module" src="/js/index.js"></script>
+    </body>
+
+</html>

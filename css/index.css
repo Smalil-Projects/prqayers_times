@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Tajawal", serif;
+    direction: rtl;
+    background-image:linear-gradient(45deg,#090979,#0074ff);
+    height: 100vh;
+    overflow: hidden;
+
+}
+#city-name-and-date{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+.card-payer{
+    background: white;
+    color: #090979;
+    width: 12%;
+    height: 95%;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.header h1{
+    background-image:linear-gradient(45deg,#ffffff,#0074ff);
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select{
+    width: 300px;
+    background-color: none;
+    height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+main{
+    background-image: url(../Images/—Pngtree—muslim\ man\ praying\ on\ carpet_6197726.png);
+    background-repeat: no-repeat;
+    background-position: left -6px bottom -130px;
+    height: 100vh;
+    background-size: 40%;
+}
+
+.box{
+    width: 800px; color: white; margin: auto; text-align: center; padding: 50px 0
+
+}
