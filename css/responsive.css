@@ -22,8 +22,10 @@
     .center{
         flex-direction: column;
     }
-    .box{
-        width: 250px;
+    .box ,select{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
     }
     .card-payer{
         width: 100%;
@@ -31,6 +33,13 @@
     }
     #city-name{
         font-size: 30px;
+    }
+
+        main {
+            overflow: auto;
+            background-position: left -6px bottom -6px;
+            background-size: contain;
+        }
     }
 
 
